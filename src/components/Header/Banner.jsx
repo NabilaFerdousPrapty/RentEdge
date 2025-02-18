@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-4 gap-[15px] w-full sm:w-[80%] min-h-[400px]">
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-[15px] w-full sm:w-[80%] min-h-[400px] mt-4">
       <div className="col-span-1 lg:col-span-2 overflow-hidden flex justify-between flex-col rounded-sm row-span-1 lg:row-span-2 h-[170px] bg-black lg:h-full py-8 relative">
         <div className="px-8 absolute bottom-8 z-20 w-full lg:w-[70%]">
           <h4 className="text-[1.1rem] font-medium text-white">

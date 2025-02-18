@@ -3,12 +3,13 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 
 import { BrowserRouter } from "react-router";
-import MainLayout from "./layouts/main/MainLayout";
+
+import Router from "../Router";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <StrictMode>
-      <MainLayout />
+      <Router />
     </StrictMode>
   </BrowserRouter>
 );
