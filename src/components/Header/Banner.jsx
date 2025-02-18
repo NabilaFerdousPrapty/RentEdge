@@ -9,9 +9,9 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-4 gap-[15px] w-full sm:w-[100%] min-h-[400px] mt-4">
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-[15px] w-full sm:w-[100%] min-h-[500px] mt-4">
       {/* First Grid Item - Swiper Slider */}
-      <div className="col-span-1 lg:col-span-2 overflow-hidden flex justify-between flex-col rounded-sm row-span-1 lg:row-span-2 h-[170px] bg-black lg:h-full py-8 relative">
+      <div className="col-span-1 lg:col-span-2 overflow-hidden flex justify-between flex-col rounded-sm row-span-1 lg:row-span-2 h-[170px] bg-black lg:h-full py-8 relative rounded-xl">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -27,7 +27,7 @@ const Banner = () => {
           className="mySwiper w-full h-full"
         >
           <SwiperSlide>
-            <div className="w-full h-full relative">
+            <div className="w-full h-full relative ">
               <div className="px-8 absolute bottom-8 z-20 w-full lg:w-[70%]">
                 <h4 className="text-[1.1rem] font-medium text-white">
                   Smart Car Project Kits
@@ -42,7 +42,7 @@ const Banner = () => {
               <img
                 alt="product/image"
                 src="https://i.ibb.co.com/WvGP6vDB/kit1.png"
-                className="w-[350px] absolute bottom-0 left-[50%] transform translate-x-[-50%]"
+                className="w-[380px] absolute bottom-0 left-[50%] transform translate-x-[-50%]"
               />
             </div>
           </SwiperSlide>
@@ -62,7 +62,7 @@ const Banner = () => {
               <img
                 alt="product/image"
                 src="https://i.ibb.co.com/mVB5MZfq/drone-kit-diy-500x500-removebg-preview.png"
-                className="w-[250px] absolute bottom-0 left-[50%] transform translate-x-[-50%]"
+                className="w-[350px] absolute bottom-0 left-[50%] transform translate-x-[-50%]"
               />
             </div>
           </SwiperSlide>
@@ -70,7 +70,7 @@ const Banner = () => {
       </div>
 
       {/* Second Grid Item */}
-      <div className="bg-black rounded-sm col-span-1 lg:col-span-2 flex justify-between items-center px-4 overflow-hidden relative min-h-[190px]">
+      <div className="bg-black rounded-xl col-span-1 lg:col-span-2 flex justify-between items-center px-4 overflow-hidden relative min-h-[190px]">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -130,7 +130,7 @@ const Banner = () => {
       </div>
 
       {/* Third Grid Item */}
-      <div className="bg-black rounded-sm col-span-1 flex justify-between items-center px-4 overflow-hidden relative min-h-[180px]">
+      <div className="bg-black rounded-xl col-span-1 flex justify-between items-center px-4 overflow-hidden relative min-h-[180px]">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -190,7 +190,7 @@ const Banner = () => {
       </div>
 
       {/* Fourth Grid Item */}
-      <div className="bg-black rounded-sm col-span-1 flex justify-between items-center px-4 overflow-hidden relative min-h-[180px]">
+      <div className="bg-black rounded-xl col-span-1 flex justify-between items-center px-4 overflow-hidden relative min-h-[180px]">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
