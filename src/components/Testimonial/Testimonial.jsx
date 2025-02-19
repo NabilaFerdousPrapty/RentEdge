@@ -42,25 +42,27 @@ const Testimonial = () => {
         </h1>
         <p className="lg:text-lg md:text-base text-primary text-sm"></p>
       </div>
-      <Swiper
-        effect={"flip"}
-        grabCursor={true}
-        pagination={true}
-        navigation={true}
-        modules={[EffectFlip, Pagination, Navigation]}
-        className="mySwiper"
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        loop={true}
-      >
-        {testimonials.map((testimonial, index) => (
-          <SwiperSlide key={index}>
-            <TestimonialCard testimonial={testimonial} />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className="max-w-7xl mx-auto overflow-hidden">
+        <Swiper
+          effect={"flip"}
+          grabCursor={true}
+          pagination={true}
+          navigation={true}
+          modules={[EffectFlip, Pagination, Navigation]}
+          className="mySwiper "
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          loop={true}
+        >
+          {testimonials.map((testimonial, index) => (
+            <SwiperSlide key={index}>
+              <TestimonialCard testimonial={testimonial} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };
