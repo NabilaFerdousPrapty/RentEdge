@@ -1,0 +1,56 @@
+[
+  {
+    "category": "Electronics Kits",
+    "badges": ["Best Price", "New Arrival"],
+    "image": "https://example.com/images/electronics-kit.jpg",
+    "name": "Advanced Robotics Starter Kit",
+    "description": "A comprehensive kit for building and programming your own robot, suitable for beginners and enthusiasts.",
+    "price": 149.99,
+    "offers": ["Free Shipping", "Free Gift: Extra Sensors Pack", "10% Cash Discount"]
+  },
+  {
+    "category": "Luxury Items",
+    "badges": ["On Sale"],
+    "image": "https://example.com/images/luxury-watch.jpg",
+    "name": "Elite Chronograph Watch",
+    "description": "A premium timepiece with a sleek design, crafted from high-quality materials for the discerning individual.",
+    "price": 1299.99,
+    "offers": ["Free Shipping", "Complimentary Engraving", "15% Cash Discount"]
+  },
+  {
+    "category": "Daily Needs",
+    "badges": ["Best Price"],
+    "image": "https://example.com/images/organic-toothpaste.jpg",
+    "name": "Organic Herbal Toothpaste",
+    "description": "An all-natural toothpaste made from organic herbs, ensuring a refreshing and healthy oral care experience.",
+    "price": 4.99,
+    "offers": ["Free Shipping on orders over $20", "Buy 2 Get 1 Free"]
+  },
+  {
+    "category": "Clothing",
+    "badges": ["New Arrival"],
+    "image": "https://example.com/images/designer-tshirt.jpg",
+    "name": "Designer Cotton T-Shirt",
+    "description": "A comfortable and stylish cotton t-shirt available in various sizes and colors, perfect for casual wear.",
+    "price": 29.99,
+    "offers": ["Free Shipping", "5% Cash Discount"]
+  },
+  {
+    "category": "Electronics Kits",
+    "badges": ["On Sale"],
+    "image": "https://example.com/images/arduino-starter-kit.jpg",
+    "name": "Arduino Beginner Starter Kit",
+    "description": "An entry-level kit that includes an Arduino board and various components to kickstart your electronics projects.",
+    "price": 59.99,
+    "offers": ["Free Shipping", "20% Cash Discount"]
+  },
+  {
+    "category": "Luxury Items",
+    "badges": ["Best Price"],
+    "image": "https://example.com/images/designer-handbag.jpg",
+    "name": "Designer Leather Handbag",
+    "description": "A handcrafted leather handbag that combines elegance and functionality, suitable for any occasion.",
+    "price": 799.99,
+    "offers": ["Free Shipping", "Free Gift Wrapping", "10% Cash Discount"]
+  }
+]

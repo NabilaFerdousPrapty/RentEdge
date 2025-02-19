@@ -4,6 +4,7 @@ import Features from "./../../components/Features/Features";
 import Contact from "../../components/contact/Contact";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import FAQ from "../../components/faq/FAQ";
+import Pricing from "../../components/Pricing/Pricing";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Banner />
       <Features />
       <FAQ />
+      <Pricing />
       <Testimonial />
       <Contact />
     </div>
