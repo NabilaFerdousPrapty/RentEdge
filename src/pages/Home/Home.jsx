@@ -5,6 +5,7 @@ import Contact from "../../components/contact/Contact";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import FAQ from "../../components/faq/FAQ";
 import Pricing from "../../components/Pricing/Pricing";
+import Products from "./../../components/Products/Products";
 
 const Home = () => {
   return (
