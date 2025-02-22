@@ -10,7 +10,7 @@ const ProductCard = () => {
   const [isFavorite, setIsFavorite] = useState(false);
 
   return (
-    <div className="border border-gray-300 w-full md:w-[60%] relative rounded-2xl overflow-hidden">
+    <div className="border border-gray-300 w-full md:w-[80%] relative rounded-2xl overflow-hidden">
       {/* badge */}
       <span className="bg-red-500 rounded-b-md px-3 py-1 text-[0.9rem] text-white absolute top-0 left-4">
         Best Value
