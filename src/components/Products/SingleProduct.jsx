@@ -6,8 +6,12 @@ import { IoGift } from "react-icons/io5";
 import { FiArrowUpRight } from "react-icons/fi";
 import { RiHeartAddLine, RiHeartFill } from "react-icons/ri";
 
-const ProductCard = () => {
+const ProductCard = ({ product }) => {
   const [isFavorite, setIsFavorite] = useState(false);
+  const { category, badges, image, name, descriprtion, price, offers } =
+    Product;
+
+  console.log(product);
 
   return (
     <div className="border border-gray-300 w-full md:w-[80%] relative rounded-2xl overflow-hidden">
