@@ -9,7 +9,7 @@ import { RiHeartAddLine, RiHeartFill } from "react-icons/ri";
 const ProductCard = ({ product }) => {
   const [isFavorite, setIsFavorite] = useState(false);
   const { category, badges, image, name, descriprtion, price, offers } =
-    Product;
+    product;
 
   console.log(product);
 
